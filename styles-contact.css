@@ -1,0 +1,181 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/gradientbg.jpg");
+  background-size: 160%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+}
+
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 150px auto;
+ 	background: rgba(255, 255, 255, 0.3); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	/* border: 4px dashed white; */
+	border-radius: 100px;
+}
+
+.right {
+	margin: auto 60px;
+}
+
+span.specialfont {
+	font-family: swear-display,serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 53pt; 
+}
+   
+#logo {
+    margin-bottom: 16px;
+	/* border: 3px dashed red; */
+	display: inline;
+	padding-left: 40px;
+}
+
+h1 {
+	/* FONT: SWEAR DISPLAY LIGHT ITALIC */
+	font-family: swear-display,serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 60pt;
+    margin: 30px auto 5px auto;
+    color: #fff;
+}
+
+h2 {
+	/* FONT: ARTICULAT */
+	font-family: articulat-cf,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40pt;
+    line-height: 1.2;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 7px auto;
+}
+
+p {
+	/* FONT: ARTICULAT */
+	font-family: articulat-cf,sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 40pt;
+    line-height: 1.1;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 20px 20px 7px 830px;
+}
+
+nav.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-right: 40px;
+}
+
+.ul-navbar {
+	display: inline;
+}
+
+ul:last-child {
+	margin-right: 30px;
+}
+
+nav {
+	font-family: articulat-cf,sans-serif;
+	font-weight: 400px;
+	font-style: italic;
+	font-size: 15pt;
+	width: 400px;
+	margin: 0 auto;
+	letter-spacing: 0.6px;
+	/* border: dashed blue;
+	border-width: 3px 0; */
+	text-align: center;
+	margin-top: 40px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline;
+	padding: 10px;
+}
+
+a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-weight: light;
+}
+
+a:hover{
+	color: white;
+	background: rgba(255, 255, 255, 0.15); /* NAV BUTTONS HAVE 0.15 OPACITY ROUNDED RECTS */
+	border-radius: 40px;
+}
